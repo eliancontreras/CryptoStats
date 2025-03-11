@@ -37,4 +37,4 @@ See a coin you're interested in? Add it to your favorites and get easy access to
 
 
 ## Author
-- My Portfolio - [Elian Contreras](https://elian-contreras.vercel.app)
+- My Portfolio - [Elian Contreras](https://elian-contreras.netlify.app/)
