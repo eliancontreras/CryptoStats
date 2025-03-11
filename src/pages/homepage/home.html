@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoStats</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../../globals.css">
+</head>
+<body>
+    <div class="form-and-select">
+        <form id="fav-search">
+            <img src="../../assets/icons/search-page-icon.svg" alt="search-icon">
+    
+            <input required type="search" name="search-favorite" placeholder="Search for your favorite coins">
+        </form>
+    
+        <select name="currency" id="currency-selector">
+            <option value="usd">USD</option>
+            <option value="ngn">NGN</option>
+            <option value="eur">EUR</option>
+            <option value="aud">AUD</option>
+            <option value="php">PHP</option>
+            <option value="aed">AED</option>
+            <option value="nzd">NZD</option>
+            <option value="btc">BTC</option>
+        </select>
+    </div>
+
+    <div class="main-goes-here">
+
+    </div>
+
+    <div class="other-coins">
+   
+    </div>
+
+
+    <div class="tabs">
+        <button class="active">
+            <img src="../../assets/icons/star-active-tab-icon.svg" alt="star icon">
+            <p>Favorites</p>
+        </button>
+
+        <button>
+            <a href="../searchpage/search.html">
+            <p>Search</p>
+            <img src="../../assets/icons/search-tab-icon.svg" alt="search icon">
+        </a>
+        </button>
+    </div>
+    
+</body>
+
+<script src="../../package/dist/chart.umd.js"></script>
+<script src="./script.js"></script>
+</html>
